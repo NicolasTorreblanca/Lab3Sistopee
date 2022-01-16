@@ -12,7 +12,7 @@
 
 //Entrada: Int x Int
 //Funcionamiento: Permite calcular el N(cantidad total de hijos) que tendra el programa   
-//Salida: Entero que indica la cantidad de hijos del padre
+//Salida: Entero que indica la canti
 
 
 int calcular_N(int particulas,int procesos){
@@ -30,6 +30,10 @@ int calcular_N(int particulas,int procesos){
   }
   return n;
 }
+
+//Entrada: Int* x Int
+//Funcionamiento: Permite calcular el Avance que tendra cada hebra  
+//Salida: Entero que indica la canti
 
 int avance(int* arreglo,int posicion_final){
   
